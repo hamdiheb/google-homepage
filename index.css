@@ -1,0 +1,14 @@
+.top-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-nav-link {
+    list-style-type: none;
+    display: flex;
+    float: left;    
+}
+#nav-log{
+    display: flex;
+    margin-top: -7px;
+    border-radius: 50%;
+}
