@@ -11,6 +11,8 @@ a {
     font-family: sans-serif;
     text-decoration: none;
     color: black;
+    font-size: 3.4mm;
+
 }
 a:hover{
     color: #505050;
@@ -43,6 +45,7 @@ google{
     border-bottom-width: 0.2mm;
     border-radius: 50px;
     border-style: ridge;
+    outline: none;
 }
 .search_button_img{
     display: flex;
@@ -62,6 +65,7 @@ google{
     border-style: ridge;
     margin-left: 150px;
     margin-top: 25px;
+    outline: none;
 }
 .google_search_button:hover{
 border-color: #D3D3D3;
@@ -77,7 +81,20 @@ border-color: #D3D3D3;
     border-radius: 7px;
     border-style: ridge;
     margin-top: 25px;
+    outline: none;
 }
 .google_search_button_second:hover{
     border-color: #D3D3D3;
+}
+.search_bar_comment{
+    display: flex;
+    margin-top:20px;
+    margin-left: 180px;
+    font-size: 4mm;
+}
+#search_bar_english{
+    color: blue;
+}
+#search_bar_english:hover{
+    text-decoration: underline;
 }
